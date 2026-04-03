@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ABDS — Automatic Bot E &amp; Design Studio</title>
+  <meta name="description" content="ABDS（Automatic Bot E & Design Studio）— 機器人與設計工作室。" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500;600;700&family=Noto+Sans+TC:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="bg-mesh" aria-hidden="true"></div>
+  <div class="grain" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="ABDS · Automatic Bot E &amp; Design Studio">
+      <img class="brand__logo" src="ABDS/icon_ABDS.svg" alt="ABDS" width="333" height="131" decoding="async" />
+      <span class="brand__text">
+        <span class="brand__acronym">ABDS</span>
+        <span class="brand__full">Automatic Bot E &amp; Design Studio</span>
+      </span>
+    </a>
+    <button type="button" class="nav-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="開啟選單">
+      <span class="nav-toggle__bar"></span>
+      <span class="nav-toggle__bar"></span>
+    </button>
+    <nav id="site-nav" class="site-nav" aria-label="主要導覽">
+      <a href="#about">關於</a>
+      <a href="#work">專案</a>
+      <a href="https://9923a7e4.nhnet.dev/EBOT_TEAM/E_bot_1" target="_blank" rel="noopener noreferrer">神奇的機器人</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <p class="hero__eyebrow" data-reveal>機器人 · 體驗 · 設計</p>
+      <h1 class="hero__title" data-reveal>
+        <span class="hero__title-line">打造</span>
+        <span class="hero__title-line hero__title-line--accent">智能的</span>
+        <span class="hero__title-line">自動機器人</span>
+      </h1>
+      <p class="hero__lead" data-reveal>
+        ABDS（Automatic Bot E &amp; Design Studio）專注於機器人應用、互動設計與平面設計，讓技術以清晰、有溫度的方式與人連結。
+      </p>
+      <div class="hero__actions" data-reveal>
+        <a class="btn btn--primary" href="#work">瀏覽專案</a>
+        <a class="btn btn--ghost" href="https://9923a7e4.nhnet.dev/EBOT_TEAM/E_bot_1" target="_blank" rel="noopener noreferrer">神奇的機器人 →</a>
+      </div>
+    </section>
+
+    <section id="about" class="section section--about">
+      <h2 class="section__title" data-reveal>關於 ABDS</h2>
+      <div class="about-grid">
+        <p class="about-grid__text" data-reveal>
+          我們結合工程與設計思維，讓「機器人」從工具變成可以互動的夥伴。
+        </p>
+        <ul class="pill-list" data-reveal>
+          <li>機器人應用</li>
+          <li>自動化回應</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="work" class="section section--work">
+      <h2 class="section__title" data-reveal>精選專案</h2>
+      <article class="project-card" data-reveal>
+        <div class="project-card__body">
+          <span class="project-card__tag">E-Bot 系列</span>
+          <h3 class="project-card__title">神奇的機器人</h3>
+          <p class="project-card__desc">
+            探索我們在 EBOT_TEAM 脈絡下的機器人實作與展示，了解互動流程與技術呈現。</br>目前該機器人已上線DC伺服器。
+          </p>
+          <a class="project-card__link" href="https://9923a7e4.nhnet.dev/EBOT_TEAM/E_bot_1" target="_blank" rel="noopener noreferrer">
+            開啟專案頁面
+            <span class="project-card__link-icon" aria-hidden="true">↗</span>
+          </a>
+        </div>
+        <div class="project-card__visual">
+          <div class="project-card__avatar-shell">
+            <div class="project-card__orbit" aria-hidden="true"></div>
+            <img class="project-card__avatar" src="ABDS/iconabds_block.png" alt="神奇的機器人頭像" width="112" height="112" loading="lazy" />
+          </div>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="site-footer__inner">
+      <div class="site-footer__brand">
+        <p class="site-footer__credit">Powered by</p>
+        <img class="site-footer__mark" src="ABDS/icon_ABDS.svg" alt="ABDS" width="333" height="131" decoding="async" />
+      </div>
+      <p class="site-footer__copy">© <span data-year></span> ABDS · Automatic Bot E &amp; Design Studio</p>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
